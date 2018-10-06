@@ -2,18 +2,15 @@ import java.util.*;
 import java.util.Scanner;
 public class Main
 {
-    public static void main(String agm[])
-    {
-        int a;
-        Scanner sc=new Scanner(System.in);
+   public static void main(String args[])
+   {
+      int x;
+      Scanner in = new Scanner(System.in);
+      x = in.nextInt();
      
-        num=sc.nextInt();
-        if(num>0)
-            System.out.println(" is POSITIVE NUMBER.");
-        else if(num<0)
-            System.out.println( " is NEGATIVE NUMBER.");
-        else 
-            System.out.println("IT's ZERO.");      
-         
-    }
+      if (x % 2 == 0)
+         System.out.println("The number is even.");
+      else
+         System.out.println("The number is odd.");
+   }
 }
