@@ -9,9 +9,9 @@ public class Main
      
         num=sc.nextInt();
         if(num>0)
-            System.out.println(a + " is POSITIVE NUMBER.");
+            System.out.println(" is POSITIVE NUMBER.");
         else if(num<0)
-            System.out.println(a + " is NEGATIVE NUMBER.");
+            System.out.println( " is NEGATIVE NUMBER.");
         else 
             System.out.println("IT's ZERO.");      
          
